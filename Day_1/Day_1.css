@@ -23,7 +23,64 @@
 .count {
     position: relative;
     height: 100px;
-    width: 200px;
-    font-size: 10em;
+    width: 220px;
+}
+
+.pot {
+    position: absolute;
+    z-index: 1;
+    height: 40px;
+    width: 20px;
+    background: #fff;
+    transform: rotate(50deg);
+    border-radius: 2px;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, .2);
+}
+
+.number-one {
+    position: absolute;
+    z-index: 20;
+    left: 18px;
+    height: 100px;
+    width: 20px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, .2);
+}
+
+.number-two,
+.number-three {
+    position: absolute;
+    z-index: 14;
+    top: 0;
+    left: 28px;
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 24px solid #fff;
+    box-shadow: 0 0 13px rgba(0, 0, 0, .2);
+}
+
+.number-three {
+    z-index: 10;
+    left: 118px;
+}
+
+.unit {
+    display: block;
+    position: relative;
+    line-height: 80px;
+    font-size: 4.6em;
+    margin-top: -10px;
     font-weight: bold;
+}
+
+.target {
+    display: block;
+    position: relative;
+    width: 240px;
+    line-height: 46px;
+    font-size: 1.4em;
+    margin-top: -40px;
 }
