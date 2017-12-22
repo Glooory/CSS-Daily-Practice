@@ -1,0 +1,3 @@
+$('.icon').bind('click', function() {
+
+})
