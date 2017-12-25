@@ -1,0 +1,82 @@
+.frame {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #272c34;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 4px 4px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    position: relative;
+    overflow: hidden;
+    clip-path: circle(90px at 90px 90px);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.circle .sky {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    height: 124px;
+    background: #7ddffc;
+    animation: sky-turns-black 4s cubic-bezier(0.4, 0, 0.49, 1) infinite;
+}
+
+.circle .sun {}
+
+.circle .ground {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    height: 56px;
+    background: #f0de75;
+    animation: ground-fading 4s cubic-bezier(0.4, 0, 0.49, 1) infinite;
+}
+
+@keyframes sky-turns-black {
+    0% {
+        background: #272c34;
+    }
+    30% {
+        background: #7ddffc;
+    }
+    70% {
+        background: #7ddffc;
+    }
+    100% {
+        background: #272c34;
+    }
+}
+
+@keyframes ground-fading {
+    0% {
+        background: #272c34;
+    }
+    30% {
+        background: #f0de75;
+    }
+    70% {
+        background: #f0de75;
+    }
+    100% {
+        background: #272c34;
+    }
+}
