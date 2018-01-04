@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #eeeeee;
+    height: 50px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    float: left;
+    text-align: center;
+    position: relative;
+    line-height: 50px;
+}
+
+li a {
+    color: #414141;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    width: 100px;
+}
