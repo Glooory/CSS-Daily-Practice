@@ -3,6 +3,18 @@
     margin: 0;
 }
 
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
 .header {
     padding-left: 17.8%;
     padding-right: 17.8%;
@@ -11,30 +23,14 @@
     line-height: 29px;
     background-color: #FAFAFA;
     border-bottom: 1px solid #ededed;
+    text-align: center;
 }
 
 .header ul {
     list-style-type: none;
 }
 
-.header-left {
-    float: left;
-}
-
-.header-left-item {
-    float: left;
-    text-align: center;
-}
-
-.header-right {
-    float: right;
-}
-
-.header-left li {
-    float: left;
-}
-
-.header-right li {
+.header ul li ul li {
     float: left;
 }
 
@@ -55,9 +51,85 @@
     margin: 0 10px 0 20px;
 }
 
-.divider {
+.header-divider {
     width: 1px;
     border-left: 1px solid #C1BFC0;
     height: 12px;
     margin: 9px 12px 7px 12px;
+}
+
+.search {
+    background: url(../images/index_02.png) no-repeat;
+    width: 100%;
+    padding: 16px 0;
+}
+
+.search .logo {
+    margin-left: 300px;
+}
+
+.search>form {
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.search-box {
+    width: 518px;
+    height: 40px;
+    border: 2px solid #347CA2;
+    position: relative;
+}
+
+.search-box span {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 22px;
+    padding-right: 31px;
+    border-right: 1px solid #ddd;
+    position: relative;
+}
+
+.search-box b {
+    border: 3px solid transparent;
+    border-top-color: #aaa;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.search-box input {
+    width: 303px;
+    height: 36px;
+    line-height: 36px;
+    padding: 3px 10px 1px 10px;
+    border: none;
+}
+
+.search-box button {
+    font-size: 16px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px 0 41px;
+    border: none;
+    background-color: #008CD6;
+    position: absolute;
+    right: 0px;
+    top: 0;
+}
+
+.search-box i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/sprite.png) no-repeat;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.hot-line {
+    margin-top: 34px;
+    margin-right: 318px;
 }
