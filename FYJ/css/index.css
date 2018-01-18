@@ -28,7 +28,8 @@
 
 .header ul,
 .nav ul,
-.business ul {
+.business ul,
+.recomendation ul {
     list-style-type: none;
     text-decoration: none;
 }
@@ -258,4 +259,52 @@
     position: relative;
     top: 7px;
     right: 6px;
+}
+
+.recomendation p {
+    margin-left: 17.8%;
+    margin-right: 17.8%;
+    margin-bottom: 12px;
+    font-size: 1.4em;
+    color: #914F9F;
+    font-weight: bold;
+}
+
+.recomendation p img {
+    margin-left: 60px;
+}
+
+.recomendation>ul {
+    margin-left: 17.8%;
+    margin-right: 17.8%;
+}
+
+.recomendation-img-large img {
+    width: 420px;
+    height: 310px;
+}
+
+.recomendation>ul>li {
+    float: left;
+    margin-right: 12px;
+}
+
+.img-title-left a,
+{
+    text-decoration-style: none;
+    color: #222222;
+}
+
+.img-title-left a:hover {
+    text-decoration-style: underline;
+    color: #FF001E;
+}
+
+.img-title-right {
+    font-weight: bold;
+    color: #FF001E;
+}
+
+.img-title-right b {
+    color: #C1BFC0;
 }
