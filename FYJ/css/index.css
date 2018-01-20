@@ -30,7 +30,8 @@
 .nav ul,
 .business ul,
 .recomendation ul,
-.sights-near-by ul {
+.sights-near-by ul,
+.sights-local ul li ul {
     list-style-type: none;
     text-decoration: none;
 }
@@ -315,14 +316,16 @@
     margin: 30px 17.8%;
 }
 
-.sights-near-by-title {
+.sights-near-by-title,
+.sights-local {
     height: 40px;
     line-height: 40px;
     border-bottom: 2px solid #C1BFC0;
     margin-bottom: 20px;
 }
 
-.sights-near-by-title span {
+.sights-near-by-title>span,
+.sights-local-title>span {
     font-size: 1.4em;
     color: #FF7928;
     display: inline-block;
@@ -332,7 +335,8 @@
     font-weight: bold;
 }
 
-.sights-near-by-title img {
+.sights-near-by-title img,
+.sights-local-title img {
     margin-bottom: 12px;
 }
 
@@ -427,4 +431,32 @@
 
 .img-last {
     margin-right: 0;
+    float: right;
+}
+
+.sights-local-title {
+    margin-top: 20px;
+}
+
+.sights-local-title>span {
+    color: #2CAEAC;
+}
+
+.sights-local ul {
+    margin: 30px 0;
+}
+
+.sights-local ul li {
+    float: left;
+    margin-right: 5px;
+}
+
+.sights-local ul li.last {
+    float: right;
+    margin-right: 0px;
+}
+
+.sights-local ul li a {
+    display: block;
+    margin-bottom: -18px;
 }
