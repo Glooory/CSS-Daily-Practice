@@ -290,9 +290,8 @@
     margin-right: 12px;
 }
 
-.img-title-left a,
-{
-    text-decoration-style: none;
+.img-title-left a {
+    text-decoration: none;
     color: #222222;
 }
 
@@ -309,6 +308,7 @@
 
 .img-title-right b {
     color: #C1BFC0;
+    font-size: 0.9em;
 }
 
 .sights-near-by {
@@ -319,6 +319,7 @@
     height: 40px;
     line-height: 40px;
     border-bottom: 2px solid #C1BFC0;
+    margin-bottom: 20px;
 }
 
 .sights-near-by-title span {
@@ -368,4 +369,62 @@
 .sights-near-by-title-more:hover {
     text-decoration: underline;
     color: #FF7928;
+}
+
+.sights-near-by-imgs a {
+    color: #222222;
+}
+
+.sights-near-by-imgs>ul>li {
+    float: left;
+}
+
+.popular-cities,
+.relaxing-ways {
+    width: 210px;
+    display: block;
+}
+
+.popular-cities ul li,
+.relaxing-ways ul li {
+    float: left;
+}
+
+.popular-cities ul li a,
+.relaxing-ways ul li a {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.popular-cities ul li a:hover,
+.relaxing-ways ul li a:hover {
+    background: #FF7928;
+    color: white;
+    border-radius: 6px;
+}
+
+.popular-cities span,
+.relaxing-ways span {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.sights-near-by-imgs-large {
+    margin-right: 8px;
+}
+
+.sights-near-by-imgs-small {
+    margin-right: 8px;
+}
+
+.sights-near-by-imgs-small>ul>li {
+    margin-bottom: 10px;
+}
+
+.img-last {
+    margin-right: 0;
 }
