@@ -325,7 +325,8 @@
 }
 
 .sights-near-by-title>span,
-.sights-local-title>span {
+.sights-local-title>span,
+.strategy-guide-title>span {
     font-size: 1.4em;
     color: #FF7928;
     display: inline-block;
@@ -336,7 +337,8 @@
 }
 
 .sights-near-by-title img,
-.sights-local-title img {
+.sights-local-title img,
+.strategy-guide-title img {
     margin-bottom: 12px;
 }
 
@@ -363,14 +365,16 @@
     color: #FF7928;
 }
 
-.sights-near-by-title-more {
+.sights-near-by-title-more,
+.strategy-guide-title-more {
     text-decoration: none;
     font-size: 0.9em;
     color: #424242;
     margin-bottom: 2px;
 }
 
-.sights-near-by-title-more:hover {
+.sights-near-by-title-more:hover,
+.strategy-guide-title-more:hover {
     text-decoration: underline;
     color: #FF7928;
 }
@@ -434,7 +438,8 @@
     float: right;
 }
 
-.sights-local-title {
+.sights-local-title,
+.strategy-guide-title {
     margin-top: 20px;
 }
 
@@ -459,4 +464,50 @@
 .sights-local ul li a {
     display: block;
     margin-bottom: -18px;
+}
+
+.strategy-guide {
+    position: relative;
+    top: 30px;
+}
+
+.strategy-guide-title {
+    display: block;
+    border-bottom: 2px solid #C1BFC0;
+}
+
+.strategy-guide-title>span {
+    color: #914F9F;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.strategy-guide-title>img {
+    margin-left: 60px;
+}
+
+.strategy-guide-list {
+    color: #222222;
+    font-size: 0.75em;
+    position: relative;
+    top: 20px;
+}
+
+.strategy-guide-list li {
+    float: left;
+    padding: 4px 20px 4px 0;
+}
+
+.strategy-guide-list li a {
+    display: block;
+    width: 360px;
+    text-decoration: none;
+}
+
+.strategy-guide-list li a:hover {
+    text-decoration: underline;
+}
+
+.last-one {
+    padding-right: 0;
 }
