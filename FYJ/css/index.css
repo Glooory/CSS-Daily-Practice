@@ -467,22 +467,24 @@
 }
 
 .strategy-guide {
-    position: relative;
-    top: 30px;
+    display: inline-block;
 }
 
-.strategy-guide-title {
+.strategy-guide-title,
+.coopreative-company-title {
     display: block;
     border-bottom: 2px solid #C1BFC0;
 }
 
-.strategy-guide-title>span {
+.strategy-guide-title>span,
+.coopreative-company-title>span {
     color: #914F9F;
     font-size: 1.4em;
     font-weight: bold;
 }
 
-.strategy-guide-title>img {
+.strategy-guide-title>img,
+.coopreative-company-title>img {
     margin-left: 60px;
 }
 
@@ -490,7 +492,7 @@
     color: #222222;
     font-size: 0.75em;
     position: relative;
-    top: 20px;
+    margin-top: 20px;
 }
 
 .strategy-guide-list li {
@@ -510,4 +512,24 @@
 
 .last-one {
     padding-right: 0;
+}
+
+.coopreative-company {
+    position: relative;
+    margin-top: 30px;
+}
+
+.coopreative-company-list {
+    margin: 20px 0;
+}
+
+.coopreative-company-list li {
+    float: left;
+    margin-right: 4px;
+    display: lock;
+}
+
+.coopreative-company-last {
+    float: right;
+    margin-right: 0;
 }
