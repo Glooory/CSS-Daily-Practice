@@ -15,6 +15,10 @@
     clear: both;
 }
 
+.none-list-style {
+    list-style-type: none;
+}
+
 .header {
     padding-left: 17.8%;
     padding-right: 17.8%;
@@ -312,7 +316,10 @@
     font-size: 0.9em;
 }
 
-.sights-near-by {
+.sights-near-by,
+.sights-local,
+.strategy-guide,
+.coopreative-company {
     margin: 30px 17.8%;
 }
 
@@ -532,4 +539,44 @@
 .coopreative-company-last {
     float: right;
     margin-right: 0;
+}
+
+.qna {
+    background-color: #4A5A64;
+    padding: 50px 0 50px 18%;
+    margin: 0;
+    color: white;
+}
+
+.qna>ul>li {
+    float: left;
+    height: 180px;
+    border-right: 1px dotted white;
+}
+
+.qna>ul>li.wechat-qr-code {
+    border: none;
+}
+
+.qna>ul>li>ul {
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.qna>ul>li>ul span {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.qna>ul>li>ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+    display: inline-block;
+    padding: 2px 0;
+}
+
+.qna>ul>li>ul li a:hover {
+    text-decoration: underline;
 }
