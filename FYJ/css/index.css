@@ -589,3 +589,23 @@
     margin-bottom: 16px;
     font-size: 0.7em;
 }
+
+.badges {
+    padding: 0 17.8%;
+}
+
+.badges>ul,
+.badges>ul>li ul {
+    list-style-type: none;
+}
+
+.badges>ul>li {
+    float: left;
+    margin-bottom: 16px;
+}
+
+.badges>ul>li ul li {
+    width: 114px;
+    text-align: center;
+    font-size: 0.65em;
+}
