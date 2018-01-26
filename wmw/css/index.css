@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.margin-both {
+    margin-left: 16%;
+    margin-right: 16%;
+}
+
+.none-a {
+    text-decoration: none;
+    color: #606060;
+}
+
+.ver-list {
+    float: left;
+    list-style-type: none;
+}
+
+.account-bar {
+    margin: 4px 16% 4px 16%;
+}
+
+.account-bar a,
+.account-bar span {
+    font-size: 0.95em;
+    text-decoration: none;
+    color: #606060;
+}
+
+.account-bar a:hover {
+    text-decoration: underline;
+    color: #88B936;
+}
+
+.account-bar i {
+    margin: 0 6px;
+    border-right: 1px solid #E6DDE5;
+}
+
+.account i.account-last {
+    border-right: 1px solid transparent;
+}
+
+.img-cart {
+    position: relative;
+    top: 3px;
+    right: 2px;
+}
