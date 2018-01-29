@@ -11,6 +11,11 @@
     float: right;
 }
 
+.last {
+    margin-right: 0;
+    padding-right: 0;
+}
+
 .clear {
     clear: both;
 }
@@ -59,4 +64,89 @@
     position: relative;
     top: 3px;
     right: 2px;
+}
+
+.search-bar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.search-bar>a {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+a.last {
+    margin-right: 0;
+    display: inline-block;
+}
+
+.search-box {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-bar ul {
+    position: absolute;
+    list-style-type: none;
+    float: top;
+}
+
+.search-box>ul>li {
+    float: left;
+}
+
+.search-box form {
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
+
+.search-box input {
+    height: 40px;
+    line-height: 40px;
+    width: 400px;
+    border: 2px solid #CB0014;
+}
+
+.search-box>form>button {
+    position: relative;
+    top: 3px;
+    left: -8px;
+    height: 45px;
+    line-height: 45px;
+    width: 80px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: #CB0014;
+}
+
+.search-box>form>a {
+    position: relative;
+    top: 11px;
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    font-size: 0.95em;
+}
+
+.search-box>form>a:hover {
+    text-decoration: underline;
+    color: #88B936;
+}
+
+.search-box ul {
+    position: relative;
+    top: -40px;
+    left: 16px;
+}
+
+.search-box>ul>li a {
+    color: #222222;
+    font-size: 0.85em;
+    padding: 0 12px;
+    text-decoration: none;
 }
