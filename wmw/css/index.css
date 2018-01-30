@@ -108,6 +108,8 @@ a.last {
     line-height: 40px;
     width: 400px;
     border: 2px solid #CB0014;
+    outline: none;
+    padding: 0 20px;
 }
 
 .search-box>form>button {
