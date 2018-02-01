@@ -68,7 +68,6 @@
 
 .search-bar {
     padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .search-bar>a {
@@ -151,4 +150,113 @@ a.last {
     font-size: 0.85em;
     padding: 0 12px;
     text-decoration: none;
+}
+
+.nav {
+    height: 44px;
+    line-height: 44px;
+}
+
+.nav span {
+    width: 200px;
+    line-height: 44px;
+    text-align: center;
+    background-color: #18881B;
+    font-size: 1.35em;
+    color: white;
+    font-weight: bold;
+}
+
+.nav ul {
+    display: inline-block;
+    list-style-type: none;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 20px;
+}
+
+.nav ul li {
+    float: left;
+    height: 44px;
+    line-height: 44px;
+}
+
+.nav>ul>li a {
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 20px;
+    text-align: center;
+    color: #222222;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+.nav>ul>li a:hover {
+    color: #88B936;
+}
+
+.chart-icon {
+    position: relative;
+    /* z-index only works on positioned elements (position:absolute, position:relative, or position:fixed) */
+    display: inline-block;
+    width: 180px;
+    line-height: 44px;
+    height: 44px;
+    text-align: center;
+    color: #222222;
+    text-decoration: none;
+    font-size: 0.85em;
+    padding-left: 12px;
+    border: 1px solid transparent;
+    z-index: 10;
+}
+
+.chart a img {
+    display: inline-block;
+    width: 30px;
+    position: relative;
+    top: 6px;
+    right: 12px;
+}
+
+.chart-dropdown {
+    display: none;
+    position: absolute;
+    width: 350px;
+    height: 162px;
+    z-index: 2;
+    border: 1px solid #88B936;
+    right: 286px;
+    top: 336px;
+}
+
+.chart-icon:hover {
+    border: 1px solid #88B936;
+    border-bottom: 1px solid white;
+    background-color: white;
+    color: #88B936;
+}
+
+.chart-icon:hover+div.chart-dropdown {
+    display: block;
+    background-color: white;
+}
+
+.chart-dropdown img {
+    margin-top: 30px;
+    margin-left: 124px;
+}
+
+.chart-dropdown dd {
+    line-height: 20px;
+    width: 350px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.chart-dropdown a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #CE5560;
 }
